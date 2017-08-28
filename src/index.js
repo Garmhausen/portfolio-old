@@ -38,11 +38,10 @@ class Section extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-default navbar-fixed-top">
-          <div className="container-fluid">
+        <nav className="navbar">
+          <div className="nav-internal-wrapper">
             <div
-              className="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
+              className="nav-links-wrapper"
             >
               <ul className="nav navbar-nav">
                 <li>

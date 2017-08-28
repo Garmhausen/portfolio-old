@@ -18,6 +18,13 @@ body {
 	padding-left:10px;
 }
 
+.navbar {
+  z-index: 2;
+  position: fixed;
+  height: 55px;
+  background: white;
+}
+
 .active {
 	color: #F55D3E !important;
 }
