@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.element {
+	min-height:100vh;
+	/*background-color: #ededed;*/
+	font-size: 25px;
+	/*border-top:1px solid #000;*/
+	padding-top:50px;
+	padding-left:10px;
+}
+
+.active {
+	color: #F55D3E !important;
+}
+
+.nav-title {
+  color: #F55D3E;
+}
+
+.about-section {
+  background: #E7EBC5;
+}
+
+.projects-section {
+  background: #B26365;
+}
+
+.contact-section {
+  background: #D6D9CE;
+}
+
+.about-text {
+  width: 80vw;
+  font-size: 20px;
+
+}
