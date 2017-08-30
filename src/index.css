@@ -1,7 +1,19 @@
+/* colors: https://coolors.co/export/pdf/f15025-ffffff-e6e8e6-ced0ce-191919
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
 }
 
 .body {
@@ -10,43 +22,137 @@ body {
 }
 
 .element {
-	min-height:100vh;
-	/*background-color: #ededed;*/
-	font-size: 25px;
-	/*border-top:1px solid #000;*/
-	padding-top:50px;
-	padding-left:10px;
+	min-height:105vh;
+	padding-top: 40px;
+	padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar {
   z-index: 2;
   position: fixed;
-  height: 55px;
-  background: white;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100vw;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  /*padding-top: 10px;*/
 }
 
 .active {
-	color: #F55D3E !important;
+	color: #F15025 !important;
 }
 
-.nav-title {
-  color: #F55D3E;
+.navlink {
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 24px;
+  margin-left: 10px;
+
 }
 
 .about-section {
-  background: #E7EBC5;
+  color: #E6E8E6;
+  background: #191919;
 }
 
-.projects-section {
-  background: #B26365;
-}
-
-.contact-section {
-  background: #D6D9CE;
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 
 .about-text {
+  position: relative;
   width: 80vw;
-  font-size: 20px;
+  font-size: 1.2rem;
+  border: 5px solid;
+  padding: 20px;
+}
 
+.about-title {
+position: absolute;
+background: #191919;
+font-size: 2rem;
+top: -24px;
+padding: 0px 10px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+}
+
+.projects-section {
+  background: #CED0CE;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-wrapper {
+  width: 90vw;
+}
+
+.projects-card {
+  height: 300px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-card-left {
+  width: 45vw;
+}
+
+.projects-card-right {
+  width: 45vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  border: 1px solid;
+}
+
+.project-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin: 20px 50px;
+  /*box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.9);*/
+}
+
+.project-link:hover {
+  background-color: #F15025;
+  color: #FFFFFF;
+  border-color: #191919;
+}
+
+.mysteryword-right {
+  background-image: url(mw.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-section {
+  background: #191919;
+  color: #E6E8E6;
 }
