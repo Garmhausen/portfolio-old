@@ -40,7 +40,7 @@ class Section extends React.Component {
               <div className="nav">
                 <a
                   className="navbar-brand nav-title"
-                  href="http://www.robertgarmhausen.com"
+                  href="https://garmhausen.github.io"
                 >
                   Robert Garmhausen
                 </a>
@@ -88,6 +88,13 @@ class Section extends React.Component {
                     rel="noopener noreferrer"
                   >
                     <i className="fa fa-github-square" aria-hidden="true" />
+                  </a>
+                  <a
+                    href="https://twitter.com/garminthehausen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-twitter-square" aria-hidden="true" />
                   </a>
                 </span>
               </div>
@@ -243,11 +250,9 @@ class Section extends React.Component {
           <div className="contact-wrapper">
             <div className="contact-text">
               <div className="contact-title">Contact</div>
-              <i className="fa fa-envelope-square" aria-hidden="true" />
-              <span>
-                  robertgarmhausen@gmail.com
-              </span>
-              <i className="fa fa-linkedin-square" aria-hidden="true" />
+              <i className="fa fa-envelope-o" aria-hidden="true" />
+              <span>robertgarmhausen@gmail.com</span>
+              <i className="fa fa-linkedin" aria-hidden="true" />
               <span>
                 <a
                   href="https://www.linkedin.com/in/robertgarmhausen/"
@@ -257,7 +262,7 @@ class Section extends React.Component {
                   linkedin.com/in/robertgarmhausen
                 </a>
               </span>
-              <i className="fa fa-github-square" aria-hidden="true" />
+              <i className="fa fa-github" aria-hidden="true" />
               <span>
                 <a
                   href="https://github.com/Garmhausen"
@@ -267,7 +272,7 @@ class Section extends React.Component {
                   github.com/Garmhausen
                 </a>
               </span>
-              <i className="fa fa-twitter-square" aria-hidden="true" />
+              <i className="fa fa-twitter" aria-hidden="true" />
               <span>
                 <a
                   href="https://twitter.com/garminthehausen"
@@ -277,7 +282,7 @@ class Section extends React.Component {
                   @garminthehausen
                 </a>
               </span>
-              <i className="fa fa-square" aria-hidden="true" />
+              <i className="fa fa-file-pdf-o" aria-hidden="true" />
               <span>
                 <a
                   href={process.env.PUBLIC_URL + '/Robert_Garmhausen.pdf'}
