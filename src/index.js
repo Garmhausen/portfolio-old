@@ -99,47 +99,198 @@ class Section extends React.Component {
           <div className="about-wrapper">
             <div className="about-text">
               <div className="about-title">Hello</div>
-              Hi! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              vehicula lorem tellus, quis imperdiet nisl pellentesque eget.
-              Fusce ac viverra enim, ut hendrerit risus. Aenean ac dolor turpis.
-              Phasellus viverra aliquet sagittis. Nulla ac sagittis arcu, at
-              viverra velit. Aliquam nisi ipsum, placerat eu sagittis vitae,
-              elementum id nisl. Ut elementum, nisi ut facilisis porttitor, enim
-              nisi efficitur leo, ut fermentum velit arcu non nibh. In hac
-              habitasse platea dictumst. Sed venenatis commodo maximus. Nullam
-              consequat venenatis ipsum ac tincidunt. Nunc augue lacus, ornare
-              id odio sed, ultrices hendrerit tellus.
+              <p>
+                Hi! I’m Robert Garmhausen, a full-stack web developer with a
+                background in IT. I’m a passionate life-long learner and love to
+                untangle problems and solve puzzles. Also, I’m a strong believer
+                in open-source software and the amazing community it fosters.
+                When I’m not at my keyboard, you can find me playing board games
+                and reading comic books.
+              </p>
+              <p>
+                Are you looking for a great web developer to do some freelance
+                work for you? Check out my{' '}
+                <a
+                  href={process.env.PUBLIC_URL + 'Robert_Garmhausen.pdf'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  résumé
+                </a>{' '}
+                and <a href="mailto:robertgarmhausen@gmail.com">
+                  get in touch
+                </a>.
+              </p>
             </div>
           </div>
-          <div className="skills-grid">Huge grid of skills will go here.</div>
+          <div className="skills-grid">
+            <i className="devicon-html5-plain-wordmark" />
+            <i className="devicon-css3-plain-wordmark" />
+            <i className="devicon-javascript-plain" />
+            <i className="devicon-bootstrap-plain-wordmark" />
+            <i className="devicon-sass-original" />
+            <i className="devicon-react-original-wordmark" />
+            <i className="devicon-nodejs-plain-wordmark" />
+            <i className="devicon-express-original-wordmark" />
+            <i className="devicon-mongodb-plain-wordmark" />
+            <i className="devicon-postgresql-plain-wordmark" />
+            <i className="devicon-sequelize-plain-wordmark" />
+            <i className="devicon-mocha-plain" />
+            <i className="devicon-git-plain-wordmark" />
+            <i className="devicon-github-plain-wordmark" />
+            <i className="devicon-heroku-original-wordmark" />
+          </div>
         </Element>
 
         <Element name="projects" className="element projects-section">
           <div className="projects-wrapper">
             <div className="projects-card">
-              <div className="projects-card-left mysteryword-left">
+              <div className="projects-card-left-text">
+                <h1>Mystery Word</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  vehicula lorem tellus, quis imperdiet nisl pellentesque eget.
-                  Fusce ac viverra enim, ut hendrerit risus. Aenean ac dolor
-                  turpis. Phasellus viverra aliquet sagittis.
+                  This is a hangman-like game, try and guess a word
+                  letter-by-letter. It pulls from a text file to find words.
+                  There are three difficulty settings that alter the length of
+                  the word the game pulls at random when you begin. This project
+                  was built with Node.js and Express for back end, using
+                  Mustache templating.
                 </p>
-              </div>
-              <div className="projects-card-right mysteryword-right">
-                  <a className="project-link" href="liveProject">Live
+                <div className="project-links-wrapper">
+                  <a
+                    className="project-link"
+                    href="https://mysteryword.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live
                   </a>
-                  <a className="project-link" href="codeProject">
+                  <a
+                    className="project-link"
+                    href="https://github.com/Garmhausen/MysteryWord"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Code
                   </a>
                 </div>
+              </div>
+              <div className="project-image-wrapper mw-image" />
             </div>
-            <div className="projects-card">Card 2</div>
-            <div className="projects-card">Card 3</div>
+            <div className="projects-card">
+              <div className="projects-card-left-text">
+                <h1>Soundcloud Search</h1>
+                <p>
+                  Search Souncloud using their API. This was build using
+                  JavaScript, HTML and CSS to give a fundamental example of
+                  interacting with an API and displaying the results
+                  dynamically.
+                </p>
+                <div className="project-links-wrapper">
+                  <a
+                    className="project-link"
+                    href="https://garmhausen.github.io/Soundcloud/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live
+                  </a>
+                  <a
+                    className="project-link"
+                    href="https://github.com/Garmhausen/Soundcloud"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+              <div className="project-image-wrapper sc-image" />
+            </div>
+            <div className="projects-card">
+              <div className="projects-card-left-text">
+                <h1>Chessboard</h1>
+                <p>
+                  This project animates through the first several moves of the
+                  Catalan opening in a simple way using only Javascript, HTML
+                  and CSS. The user can play/pause the animation and step
+                  backward, forward and skip to the beginning or end.
+                </p>
+                <div className="project-links-wrapper">
+                  <a
+                    className="project-link"
+                    href="https://garmhausen.github.io/Chessboard/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live
+                  </a>
+                  <a
+                    className="project-link"
+                    href="https://github.com/Garmhausen/Chessboard"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+              <div className="project-image-wrapper cb-image" />
+            </div>
           </div>
         </Element>
 
         <Element name="contact" className="element contact-section">
-          Contact
+          <div className="contact-wrapper">
+            <div className="contact-text">
+              <div className="contact-title">Contact</div>
+              <i className="fa fa-envelope-square" aria-hidden="true" />
+              <span>
+                <a href="mailto:robertgarmhausen@gmail.com">
+                  robertgarmhausen@gmail.com
+                </a>
+              </span>
+              <i className="fa fa-linkedin-square" aria-hidden="true" />
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/robertgarmhausen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  linkedin.com/in/robertgarmhausen
+                </a>
+              </span>
+              <i className="fa fa-github-square" aria-hidden="true" />
+              <span>
+                <a
+                  href="https://github.com/Garmhausen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/Garmhausen
+                </a>
+              </span>
+              <i className="fa fa-twitter-square" aria-hidden="true" />
+              <span>
+                <a
+                  href="https://twitter.com/garminthehausen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @garminthehausen
+                </a>
+              </span>
+              <i className="fa fa-square" aria-hidden="true" />
+              <span>
+                <a
+                  href={process.env.PUBLIC_URL + '/Robert_Garmhausen.pdf'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  download résumé
+                </a>
+              </span>
+            </div>
+          </div>
         </Element>
       </div>
     );
