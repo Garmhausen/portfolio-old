@@ -46,6 +46,10 @@ a {
   width: 80vw;
 }
 
+.nav-icons {
+  font-size: 1.4rem;
+}
+
 .active {
   color: #f15025;
 }

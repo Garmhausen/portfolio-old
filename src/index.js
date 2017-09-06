@@ -245,9 +245,7 @@ class Section extends React.Component {
               <div className="contact-title">Contact</div>
               <i className="fa fa-envelope-square" aria-hidden="true" />
               <span>
-                <a href="mailto:robertgarmhausen@gmail.com">
                   robertgarmhausen@gmail.com
-                </a>
               </span>
               <i className="fa fa-linkedin-square" aria-hidden="true" />
               <span>
