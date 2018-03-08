@@ -164,13 +164,13 @@ class Section extends React.Component {
                   letter-by-letter. It pulls from a text file to find words.
                   There are three difficulty settings that alter the length of
                   the word the game pulls at random when you begin. This project
-                  was built with Node.js and Express for back end, using
-                  Mustache templating.
+                  was built with Angular and ngrx/store, using a back-end built
+                  with Node.js using Express.
                 </p>
                 <div className="project-links-wrapper">
                   <a
                     className="project-link"
-                    href="https://mysteryword.herokuapp.com/"
+                    href = "https://mystery-word-ng5.firebaseapp.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -178,7 +178,7 @@ class Section extends React.Component {
                   </a>
                   <a
                     className="project-link"
-                    href="https://github.com/Garmhausen/MysteryWord"
+                    href = "https://github.com/Garmhausen/mystery-word"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
