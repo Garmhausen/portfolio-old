@@ -112,21 +112,7 @@ class Section extends React.Component {
                 untangle problems and solve puzzles. Also, I’m a strong believer
                 in open-source software and the amazing community it fosters.
                 When I’m not at my keyboard, you can find me playing board games
-                and reading comic books.
-              </p>
-              <p>
-                Are you looking for a great web developer to do some freelance
-                work for you? Check out my{' '}
-                <a
-                  href={process.env.PUBLIC_URL + 'Robert_Garmhausen.pdf'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  résumé
-                </a>{' '}
-                and <a href="mailto:robertgarmhausen@gmail.com">
-                  get in touch
-                </a>.
+                and <a href="https://open.spotify.com/artist/6rabW8GTeJd5qhXXddQypT">making music</a>.
               </p>
             </div>
           </div>
@@ -135,9 +121,10 @@ class Section extends React.Component {
             <i className="devicon-css3-plain-wordmark" />
             <i className="devicon-javascript-plain" />
             <i className="devicon-typescript-plain" />
-            <i className="devicon-jquery-plain-wordmark" />
-            <i className="devicon-bootstrap-plain-wordmark" />
+            <i className="devicon-csharp-plain" />
             <i className="devicon-sass-original" />
+            <i className="devicon-less-plain-wordmark" />
+            <i className="devicon-vuejs-line-wordmark" />
             <i className="devicon-angularjs-plain" />
             <i className="devicon-react-original-wordmark" />
             <i className="devicon-nodejs-plain-wordmark" />
@@ -145,11 +132,12 @@ class Section extends React.Component {
             <i className="devicon-mongodb-plain-wordmark" />
             <i className="devicon-postgresql-plain-wordmark" />
             <i className="devicon-mysql-plain-wordmark" />
-            <i className="devicon-sequelize-plain-wordmark" />
-            <i className="devicon-mocha-plain" />
             <i className="devicon-jasmine-plain-wordmark" />
+            <i className="devicon-docker-plain-wordmark" />
             <i className="devicon-git-plain-wordmark" />
             <i className="devicon-github-plain-wordmark" />
+            <i className="devicon-dot-net-plain-wordmark" />
+            <i className="devicon-gulp-plain" />
             <i className="devicon-heroku-original-wordmark" />
           </div>
         </Element>
@@ -190,25 +178,18 @@ class Section extends React.Component {
             </div>
             <div className="projects-card">
               <div className="projects-card-left-text">
-                <h1>Soundcloud Search</h1>
+                <h1>CA-API</h1>
                 <p>
-                  Search Souncloud using their API. This was build using
-                  JavaScript, HTML and CSS to give a fundamental example of
-                  interacting with an API and displaying the results
-                  dynamically.
+                  This was an excercise in handrolling authentication using
+                  node, express, and prisma with graphql, but has grown into the beginning
+                  of a larger app. It serves here as useful example of
+                  file structure organization, backend architecture, and code cleanliness.
+                  It is not currently deployed.
                 </p>
                 <div className="project-links-wrapper">
                   <a
                     className="project-link"
-                    href="https://garmhausen.github.io/Soundcloud/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live
-                  </a>
-                  <a
-                    className="project-link"
-                    href="https://github.com/Garmhausen/Soundcloud"
+                    href="https://github.com/Garmhausen/ca-api"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
